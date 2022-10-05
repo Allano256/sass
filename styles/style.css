@@ -136,12 +136,44 @@
   grid-row: 27/32;
 }
 
-nav ul {
+.navigation ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
   text-decoration: none;
 }
-nav ul a {
+.navigation ul a {
   text-decoration: none;
+  font-family: "mulins";
+  font-weight: 700;
+}
+
+.list-items {
+  display: flex;
+  justify-content: space-between;
+}
+.list-items .para1 {
+  font-family: "mulin";
+  font-weight: 700;
+  position: relative;
+  left: 50px;
+  width: 300px;
+  height: 100px;
+}
+.list-items .list {
+  display: flex;
+  position: relative;
+  right: 70px;
+}
+.list-items .list1 li {
+  font-family: "mulin";
+  font-weight: 400;
+  opacity: 0.6;
+  list-style-type: none;
+}
+.list-items .list2 li {
+  font-family: "mulin";
+  font-weight: 400;
+  opacity: 0.6;
+  list-style-type: none;
 }/*# sourceMappingURL=style.css.map */

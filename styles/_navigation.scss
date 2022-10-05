@@ -1,0 +1,15 @@
+
+.navigation ul { 
+    
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+    a {
+        text-decoration:none ;
+        font-family: "mulins";
+        font-weight: 700;
+        
+    } 
+    
+}
