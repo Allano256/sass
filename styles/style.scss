@@ -2,7 +2,68 @@ body {
     max-width: 100%;
     width: 1000px;
     height: 2000px;
-    justify-self: center;
+    margin: 0%;
+    
 }
 
 @import "./nav";
+
+
+ .header {
+    margin-left: 50px;
+
+ }
+.para1 {
+    
+    height: 75px;
+    font-family: "mulish";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #4A4FF2;
+}
+  span {
+    width: 490px;
+    height: 191px;
+    font-family: "mulish";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #4A4FF2;
+  
+}
+
+.para {
+    width: 490px;
+    height: 191px;
+    font-family: "mulish";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #111111;
+    margin-bottom: 50px;  
+}
+.tin {
+    
+    display:flex;
+   
+}
+aside {
+    position: relative;
+    bottom:75px;
+    left:70px;
+    align-self: flex-end;
+    margin-bottom: 50px;
+    font-family: "mulish";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color:#111111;
+    mix-blend-mode: normal;
+    opacity:0.6;
+
+}
