@@ -1,0 +1,43 @@
+
+.nav { 
+    color: black;
+    font-family: "mulish";
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-right:30px;
+
+    .bar {
+        position: relative;
+        right:12px;
+        list-style-type: none;
+        font-size: 20px;
+    }
+
+    .two {
+    display: flex;
+    list-style-type: none;
+    margin-top: 25px;
+    font-size: 10px;
+    
+}
+li {
+    margin: 20px;
+}
+
+
+
+}
+
+.para2{
+    font-family: "mulish";
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.main {
+    display: flex;
+}
