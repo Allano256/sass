@@ -7,6 +7,29 @@
 @import "./grid";
 @import "./navigation";
 @import "./item";
+@import "./projectdetails";
+@import "./contact";
+
+.para {
+    font-family: "mulish";
+    font-weight: 700;
+    font-style: normal;
+}
+.allt {
+    font-family: "mulish";
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
 
 .foot  {
     display: flex;
@@ -109,7 +132,3 @@
 }
 
 
-@import "contact";
-@import "projectdetails";
-
-    
