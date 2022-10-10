@@ -79,7 +79,7 @@
 .grid {
   margin: 50px;
   background: #FFFFFF;
-  width: 60%;
+  width: 100%;
   height: auto;
   display: grid;
   grid-template-columns: auto;
@@ -180,91 +180,120 @@
   list-style-type: none;
 }
 
-.foot {
-  display: flex;
-}
-
-.grid2 {
-  margin: 50px;
-  width: 90%;
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
-  background: steelblue;
-  color: white;
-  padding: 20px;
-  height: auto;
-  gap: 10px;
-  border: skyblue 1px solid;
-}
-
-.text1 {
-  grid-column: 1/5;
-  grid-row: 1/5;
-}
-
-.text2 {
-  grid-column: 1/5;
-  grid-row: 5/8;
-}
-
-.text3 {
-  grid-column: 5/7;
-  grid-row: 1/3;
-}
-
-.item4 {
-  grid-column: 1/4;
-  grid-row: 8/16;
-}
-
-.item5 {
-  grid-column: 4/7;
-  grid-row: 7/14;
-}
-
-.item6 {
-  grid-column: 7/9;
-  grid-row: 11/18;
-}
-
-.item7 {
-  grid-column: 4/7;
-  grid-row: 14/24;
-}
-
-.item8 {
-  grid-column: 1/4;
-  grid-row: 16/24;
-}
-
-.item9 {
-  grid-column: 7/9;
-  grid-row: 18/27;
-}
-
-.item10 {
-  grid-column: 4/7;
-  grid-row: 23/32;
-}
-
-.item11 {
-  grid-column: 1/4;
-  grid-row: 24/32;
-}
-
-.item12 {
-  grid-column: 7/9;
-  grid-row: 27/32;
-}/*# sourceMappingURL=style.css.map */
-
 .para {
   font-family: "mulish";
   font-weight: 700;
   font-style: normal;
 }
+
 .allt {
   font-family: "mulish";
   font-weight: 300;
   font-style: normal;
 }
+
+.nav {
+  font-family: "mulish";
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+.nav .bar {
+  position: relative;
+  right: 12px;
+  list-style-type: none;
+  font-size: 20px;
+}
+.nav .two {
+  display: flex;
+  list-style-type: none;
+  margin-top: 25px;
+  font-size: 10px;
+}
+.nav li {
+  margin: 20px;
+}
+
+.para2 {
+  color: aqua;
+  font-family: "mulish";
+  font-weight: 700;
+  font-style: normal;
+}
+
+.main {
+  display: flex;
+}
+
+.fresh {
+  display: inline-flex;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+.fresh .allt {
+  font-family: "mulish";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  font-style: normal;
+  width: 600px;
+}
+.fresh .para {
+  font-family: "mulish";
+  font-weight: 400px;
+  font-style: normal;
+  width: 700px;
+}
+.fresh .table {
+  position: relative;
+  top: 80px;
+}
+.fresh .table th {
+  color: #111111;
+  font-family: "mulish";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 23px;
+  font-style: normal;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.fresh .table td {
+  color: #111111;
+  font-family: "mulish";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 23px;
+  font-style: normal;
+  mix-blend-mode: normal;
+}
+
+.walk {
+  position: relative;
+  left: 50px;
+  width: 1050px;
+}
+
+.allt1 {
+  font-family: "mulish";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  font-style: normal;
+  width: 600px;
+  position: relative;
+  left: 50px;
+}
+
+.images {
+  display: inline;
+  position: relative;
+  left: 50px;
+}/*# sourceMappingURL=style.css.map */
