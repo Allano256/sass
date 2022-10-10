@@ -289,14 +289,6 @@
   font-style: normal;
 }
 
-.para2 {
-  color: #111111;
-  font-family: "mulish";
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 45px;
-}
-
 .grid1 {
   width: 90%;
   margin: auto;
@@ -314,6 +306,14 @@
 }
 .grid1 .p2 {
   text-align: right;
+}
+
+.para2 {
+  color: #111111;
+  font-family: "mulish";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
 }
 
 .walk {
