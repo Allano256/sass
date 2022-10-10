@@ -19,10 +19,11 @@
     line-height:45px;
     
 }
+
 .grid1 {
     width: 90%;
     margin: auto;
-}
+
 .text1 {
     
     display: grid;
@@ -31,6 +32,16 @@
 
 .p1 {
     text-align: right;
+}
+.text2 {
+    
+    display: grid;
+    grid-template-columns: 30% 25% 25% auto;
+
+}
+.p2 {
+    text-align: right;
+}
 }
 
 

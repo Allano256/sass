@@ -301,13 +301,18 @@
   width: 90%;
   margin: auto;
 }
-
-.text1 {
+.grid1 .text1 {
   display: grid;
   grid-template-columns: 30% 25% 25% auto;
 }
-
-.p1 {
+.grid1 .p1 {
+  text-align: right;
+}
+.grid1 .text2 {
+  display: grid;
+  grid-template-columns: 30% 25% 25% auto;
+}
+.grid1 .p2 {
   text-align: right;
 }
 
