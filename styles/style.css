@@ -344,6 +344,12 @@
   list-style-type: none;
 }
 
+.icons {
+  position: relative;
+  top: 25px;
+  left: 35px;
+}
+
 .para2 {
   color: #111111;
   font-family: "mulish";
