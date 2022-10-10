@@ -168,19 +168,7 @@
   list-style-type: none;
 }
 
-.para {
-  font-family: "mulish";
-  font-weight: 700;
-  font-style: normal;
-}
-
-.allt {
-  font-family: "mulish";
-  font-weight: 300;
-  font-style: normal;
-}
-
-.nav {
+.navigation {
   font-family: "mulish";
   font-weight: 700;
   display: flex;
@@ -189,19 +177,19 @@
   margin-top: 20px;
   margin-right: 30px;
 }
-.nav .bar {
+.navigation .bar {
   position: relative;
   right: 12px;
   list-style-type: none;
   font-size: 20px;
 }
-.nav .two {
+.navigation .two {
   display: flex;
   list-style-type: none;
   margin-top: 25px;
   font-size: 10px;
 }
-.nav li {
+.navigation li {
   margin: 20px;
 }
 
@@ -260,6 +248,52 @@
   line-height: 23px;
   font-style: normal;
   mix-blend-mode: normal;
+}
+
+.navigation {
+  color: black;
+  font-family: "mulish";
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+.navigation .bar {
+  position: relative;
+  right: 12px;
+  list-style-type: none;
+  font-size: 20px;
+}
+.navigation .two {
+  display: flex;
+  list-style-type: none;
+  margin-top: 25px;
+  font-size: 10px;
+}
+.navigation li {
+  margin: 20px;
+}
+
+.para {
+  font-family: "mulish";
+  font-weight: 700;
+  font-style: normal;
+}
+
+.allt {
+  font-family: "mulish";
+  font-weight: 300;
+  font-style: normal;
+}
+
+.para2 {
+  color: #111111;
+  font-family: "mulish";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
 }
 
 .walk {
