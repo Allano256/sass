@@ -257,3 +257,14 @@
   grid-column: 7/9;
   grid-row: 27/32;
 }/*# sourceMappingURL=style.css.map */
+
+.para {
+  font-family: "mulish";
+  font-weight: 700;
+  font-style: normal;
+}
+.allt {
+  font-family: "mulish";
+  font-weight: 300;
+  font-style: normal;
+}
