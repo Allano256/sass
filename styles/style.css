@@ -225,6 +225,7 @@
   width: 700px;
 }
 .fresh .table {
+  height: 100%;
   position: relative;
   top: 80px;
 }
@@ -294,6 +295,20 @@
   font-weight: 700;
   font-size: 30px;
   line-height: 45px;
+}
+
+.grid1 {
+  width: 90%;
+  margin: auto;
+}
+
+.text1 {
+  display: grid;
+  grid-template-columns: 30% 25% 25% auto;
+}
+
+.p1 {
+  text-align: right;
 }
 
 .walk {
