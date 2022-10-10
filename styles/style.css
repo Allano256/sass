@@ -232,7 +232,9 @@
   font-size: 16px;
   line-height: 26px;
   font-style: normal;
-  width: 600px;
+  width: 500px;
+  position: relative;
+  right: 100px;
 }
 .fresh .para {
   font-family: "mulish";
@@ -303,6 +305,8 @@
   font-family: "mulish";
   font-weight: 300;
   font-style: normal;
+  position: relative;
+  left: 2px;
 }
 
 .grid1 {
@@ -361,7 +365,7 @@ input {
   margin: 40px;
 }
 
-.allt {
+.allt2 {
   position: relative;
   left: 35px;
 }
