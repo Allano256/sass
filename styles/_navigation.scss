@@ -1,7 +1,6 @@
 
 
 .navigation { 
-    color: black;
     font-family: "mulish";
     font-weight: 700;
     display: flex;
@@ -10,24 +9,39 @@
     margin-top: 20px;
     margin-right:30px;
 
-    .bar {
+    .bar a {
+        color: black;
+        text-decoration: none;
+        position: relative;
+        right:12px;
+        list-style-type: none;
+        font-size: 20px;
+    }
+    .bar2 a {
+        color: black;
+        text-decoration: none;
         position: relative;
         right:12px;
         list-style-type: none;
         font-size: 20px;
     }
 
-    .two {
-    display: flex;
-    list-style-type: none;
-    margin-top: 25px;
-    font-size: 10px;
-    
-}
-li {
+.bar li {
+    display: inline-flex;
     margin: 20px;
+    list-style-type: none;
+   
+}
+.bar2  {
+    display: inline-flex;
+    margin: 20px;
+    list-style-type: none;
 }
 
+}
 
-
+.icons {
+    position: relative;
+    top: 25px;
+    left: 35px;
 }

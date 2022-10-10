@@ -12,6 +12,63 @@
 @import "./projectdetails";
 @import "./grid1";
 
+label {
+    width: 400px;
+    display: block;
+    height: 70px;
+    position: relative;
+    left:30px;
+    border-bottom: 1px solid grey;
+}
+input {
+    display: none;
+    
+}
+.button {
+    width:125px;
+    height: 50px;
+    color: white;
+    background: #4A4FF2;
+    margin-top: 10px;
+    position: relative;
+    left: 30px;
+    border: 0;
+}
+.map {
+   width: 1000px;
+   height: 450px;
+   position: relative;
+   top: 30px;
+   left: 70px;
+}
+
+.para2  {
+   
+    position: relative;
+    margin: 40px;
+    
+}
+.allt {
+    position: relative;
+    left: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .navigation { 
     font-family: "mulish";
     font-weight: 700;
@@ -49,6 +106,7 @@
     margin: 20px;
     list-style-type: none;
 }
+
 }
 
 .icons {
